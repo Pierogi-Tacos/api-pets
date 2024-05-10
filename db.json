@@ -2,7 +2,7 @@
   "pets": [
     {
       "id": 1,
-      "name": "dog1",
+      "name": "pet",
       "description": "Module 2 project - Integrate a React app with backend.",
       "owner": null
     },
