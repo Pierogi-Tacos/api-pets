@@ -2,29 +2,457 @@
   "pets": [
     {
       "id": 1,
+      "breed": "border collie",
       "name": "pet",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "owner": null
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "no",
+      "description": "Friendly nice dog, likes long walks.",
+      "owner": null,
+      "image": ""
     },
     {
       "id": 2,
-      "name": "dog2",
-      "description": "Create a full-stack application using MERN stack.",
-      "owner": null
+      "breed": "golden retriever",
+      "name": "Max",
+      "age": 3,
+      "location": "New York",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "yes",
+      "description": "Loyal and affectionate, enjoys playing fetch.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 3,
+      "breed": "poodle",
+      "name": "Charlie",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Energetic and playful, loves attention.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 4,
+      "breed": "labrador retriever",
+      "name": "Lucy",
+      "age": 4,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Gentle and affectionate, enjoys swimming.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 5,
+      "breed": "boxer",
+      "name": "Rocky",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Playful and energetic, great for active families.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 6,
+      "breed": "shih tzu",
+      "name": "Luna",
+      "age": 3,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Affectionate lap dog, enjoys cuddling.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 7,
+      "breed": "german shepherd",
+      "name": "Max",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Intelligent and loyal, great for protection.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 8,
+      "breed": "siberian husky",
+      "name": "Bella",
+      "age": 4,
+      "location": "Los Angeles",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "yes",
+      "description": "Energetic and adventurous, loves the outdoors.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 9,
+      "breed": "dachshund",
+      "name": "Cooper",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Curious and playful, enjoys digging.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 10,
+      "breed": "beagle",
+      "name": "Milo",
+      "age": 3,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "yes",
+      "description": "Friendly and curious, loves to explore.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 11,
+      "breed": "border collie",
+      "name": "Daisy",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "no",
+      "description": "Energetic and intelligent, loves herding.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 12,
+      "breed": "golden retriever",
+      "name": "Bailey",
+      "age": 3,
+      "location": "New York",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "yes",
+      "description": "Friendly and outgoing, enjoys outdoor activities.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 13,
+      "breed": "poodle",
+      "name": "Oliver",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Graceful and clever, loves to learn tricks.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 14,
+      "breed": "labrador retriever",
+      "name": "Lola",
+      "age": 4,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Loyal and friendly, enjoys swimming.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 15,
+      "breed": "boxer",
+      "name": "Rocky",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Playful and energetic, great for active families.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 16,
+      "breed": "shih tzu",
+      "name": "Sophie",
+      "age": 3,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Sweet and affectionate, loves cuddles.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 17,
+      "breed": "german shepherd",
+      "name": "Max",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Intelligent and loyal, great for protection.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 18,
+      "breed": "siberian husky",
+      "name": "Luna",
+      "age": 4,
+      "location": "Los Angeles",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "yes",
+      "description": "Energetic and adventurous, loves the outdoors.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 19,
+      "breed": "dachshund",
+      "name": "Charlie",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Curious and playful, enjoys digging.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 20,
+      "breed": "beagle",
+      "name": "Maggie",
+      "age": 3,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "yes",
+      "description": "Friendly and curious, loves to explore.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 21,
+      "breed": "border collie",
+      "name": "Cooper",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "no",
+      "description": "Energetic and intelligent, loves herding.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 22,
+      "breed": "golden retriever",
+      "name": "Luna",
+      "age": 3,
+      "location": "New York",
+      "vaccination": true,
+      "size": "medium",
+      "likes_kids": "yes",
+      "description": "Friendly and outgoing, enjoys outdoor activities.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 23,
+      "breed": "poodle",
+      "name": "Charlie",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Graceful and clever, loves to learn tricks.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 24,
+      "breed": "labrador retriever",
+      "name": "Bella",
+      "age": 4,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Loyal and friendly, enjoys swimming.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 25,
+      "breed": "boxer",
+      "name": "Rocky",
+      "age": 2,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "large",
+      "likes_kids": "yes",
+      "description": "Playful and energetic, great for active families.",
+      "owner": null,
+      "image": ""
+    },
+    {
+      "id": 26,
+      "breed": "shih tzu",
+      "name": "Sophie",
+      "age": 3,
+      "location": "Berlin",
+      "vaccination": true,
+      "size": "small",
+      "likes_kids": "yes",
+      "description": "Sweet and affectionate, loves cuddles.",
+      "owner": null,
+      "image": ""
     }
+
   ],
   "users": [
+
     {
       "id": 1,
-      "name": "magda",
-      "password": "magda",
-      "ownerOf": []
+      "name": "sergio",
+      "password": "sergio",
+      "ownerOfId": []
     },
     {
       "id": 2,
+      "name": "rafaella",
+      "password": "rafaella",
+      "ownerOfId": [
+        6
+      ]
+    },
+    {
+      "id": 3,
+      "name": "v",
+      "password": "v",
+      "ownerOfId": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ahmad",
+      "password": "ahmad",
+      "ownerOfId": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "name": "alexandre",
+      "password": "alexandre",
+      "ownerOfId": []
+    },
+    {
+      "id": 6,
+      "name": "christian",
+      "password": "christian",
+      "ownerOfId": [
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "name": "greg",
+      "password": "greg",
+      "ownerOfId": [
+        5,
+        14
+      ]
+    },
+    {
+      "id": 8,
+      "name": "luis",
+      "password": "luis",
+      "ownerOfId": [
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "name": "kartin",
+      "password": "kartin",
+      "ownerOfId": []
+    },
+    {
+      "id": 10,
+      "name": "michael",
+      "password": "michael",
+      "ownerOfId": []
+    },
+    {
+      "id": 11,
+      "name": "richard",
+      "password": "richard",
+      "ownerOfId": []
+    },
+    {
+      "id": 12,
+      "name": "klod",
+      "password": "klod",
+      "ownerOfId": [
+        20,
+        25,
+        30
+      ]
+    },
+    {
+    "id": 13,
+      "name": "magda",
+      "password": "magda",
+      "ownerOfId": [
+        3,
+        20
+        ]
+    },
+    {
+      "id": 14,
       "name": "jesús",
       "password": "jesús",
-      "ownerOf": []
-    }
+      "ownerOfId": [
+        5,
+        21,
+        30]
+      }
+
   ]
+  
 }
+
+  
