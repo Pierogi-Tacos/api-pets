@@ -341,7 +341,7 @@
       "name": "Rocky",
       "age": 2,
       "location": "Berlin",
-      "vaccination": true,
+      "vaccination": false,
       "size": "large",
       "likes_kids": "yes",
       "description": "Playful and energetic, great for active families.",
