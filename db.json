@@ -476,19 +476,19 @@
         ],
     "requests": [
      {
-        "userId": "3",
+        "userName": "sergio",
         "dogId": "23",
-        "message": "hi, please...",
+        "message": "dog please...",
         "date": "2024-04-01"
       },
       {
-        "userId": "7",
+        "userName": "luis",
         "dogId": "18",
-        "message": "I want to adopt Max",
+        "message": "Dear Shelter Team my name is...",
         "date": "2024-02-01"
       },
       {
-        "userId": "7",
+        "userName": "christian",
         "dogId": "18",
         "message": "I want to adopt this dog please ",
         "date": "2024-09-01"
