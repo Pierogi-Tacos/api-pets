@@ -365,7 +365,6 @@
           "gender": "female"
       }
     ],
-
     "users": [
         {
             "id": 1,
@@ -474,6 +473,25 @@
               "location": "hamburg"
               }
         
-        ]
-    
+        ],
+    "requests": [
+     {
+        "userId": "3",
+        "dogId": "23",
+        "message": "hi, please...",
+        "date": "2024-04-01"
+      },
+      {
+        "userId": "7",
+        "dogId": "18",
+        "message": "I want to adopt Max",
+        "date": "2024-02-01"
+      },
+      {
+        "userId": "7",
+        "dogId": "18",
+        "message": "I want to adopt this dog please ",
+        "date": "2024-09-01"
+      }
+    ]    
   }
