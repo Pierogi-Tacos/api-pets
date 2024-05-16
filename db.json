@@ -426,14 +426,12 @@
             "id": 1,
             "name": "sergio",
             "password": "sergio",
-            "ownerOfId": [],
             "location": "berlin"
           },
           {
             "id": 2,
             "name": "rafaella",
             "password": "rafaella",
-            "ownerOfId": [6],
             "location": "portugal"
         
           },
@@ -441,92 +439,79 @@
             "id": 3,
             "name": "v",
             "password": "v",
-            "ownerOfId": [8,16],
             "location": "germany"
           },
           {
             "id": 4,
             "name": "ahmad",
             "password": "ahmad",
-            "ownerOfId": [2],
             "location": "berlin"
           },
           {
             "id": 5,
             "name": "alexandre",
             "password": "alexandre",
-            "ownerOfId": [],
             "location": "portugal"
           },
           {
             "id": 6,
             "name": "christian",
             "password": "christian",
-            "ownerOfId": [3],
             "location": "berlin"
           },
           {
             "id": 7,
             "name": "greg",
             "password": "greg",
-            "ownerOfId": [5,14],
             "location": "berlin"
           },
           {
             "id": 8,
             "name": "luis",
             "password": "luis",
-            "ownerOfId": [7],
             "location": "palma de mallorca"
           },
           {
             "id": 9,
             "name": "kartin",
             "password": "kartin",
-            "ownerOfId": [],
             "location": "berlin"
           },
           {
             "id": 10,
             "name": "michael",
             "password": "michael",
-            "ownerOfId": [],
             "location": "germany"
           },
           {
             "id": 11,
             "name": "richard",
             "password": "richard",
-            "ownerOfId": [],
             "location": "germany"
           },
           {
             "id": 12,
             "name": "klod",
             "password": "klod",
-            "ownerOfId": [20, 25, 30],
             "location": "germany"
           },
           {
           "id": 13,
             "name": "magda",
             "password": "magda",
-            "ownerOfId": [3, 20],
             "location": "berlin"
           },
           {
             "id": 14,
             "name": "jesús",
             "password": "jesús",
-            "ownerOfId": [5, 21, 30],
             "location": "berlin"
             },
             {
               "id": 15,
               "name": "admin",
               "password": "admin",
-              "ownerOfId": [],
-              "location": "hamburg"
+              "location": "berlin"
               }
         
         ],
@@ -535,21 +520,21 @@
         "id": 1,
         "userName": "sergio",
         "dogId": "23",
-        "message": "I hope this message finds you well. I recently came across Charlie's profile and instantly felt a connection. His warm eyes and wagging tail captured my heart. I'm eager to provide him with a loving home filled with cuddles, playtime, and endless adventures. Please consider me for adoption. Warm regards.",
+        "message": "I hope this message finds you well. I recently came across Loki's profile and instantly felt a connection. His warm eyes and wagging tail captured my heart. I'm eager to provide him with a loving home filled with cuddles, playtime, and endless adventures. Please consider me for adoption. Warm regards.",
         "date": "2024-04-01"
       },
       {
         "id": 2,
         "userName": "luis",
         "dogId": "18",
-        "message": "Dear Shelter Team my name is...",
+        "message": "I'm reaching out with excitement about Daisy, a charming dog at your shelter. We're eager to open our hearts and home to Daisy, offering her love, care, and endless cuddles. Please guide us through the adoption process.",
         "date": "2024-02-01"
       },
       {
         "id": 3,
         "userName": "christian",
         "dogId": "18",
-        "message": "I want to adopt this dog please ",
+        "message": "We've heard about Buddy, a wonderful dog in your care. We're eager to provide Buddy with a loving home filled with walks, playtime, and lots of belly rubs. Could you please provide more information on Buddy's adoption process?",
         "date": "2024-09-01"
       }
     ]    
